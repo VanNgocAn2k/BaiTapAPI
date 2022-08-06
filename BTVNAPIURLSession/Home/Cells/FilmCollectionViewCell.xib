@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FilmCollectionViewCell" customModule="BTVNAPIURLSession" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="272"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="272"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CIe-7C-HaE">
+                        <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="CIe-7C-HaE" secondAttribute="height" multiplier="1:1" id="Jde-dh-Wko"/>
+                            <constraint firstAttribute="width" constant="180" id="se8-18-ke5"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yo6-Dl-Tfv">
+                        <rect key="frame" x="0.0" y="185" width="200" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="N6U-VO-BCP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Yo6-Dl-Tfv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="7rl-ba-QzG"/>
+                <constraint firstItem="CIe-7C-HaE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="9Kb-aX-v62"/>
+                <constraint firstAttribute="trailing" secondItem="CIe-7C-HaE" secondAttribute="trailing" id="Adc-AS-lAi"/>
+                <constraint firstItem="CIe-7C-HaE" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="OPt-sj-ycD"/>
+                <constraint firstAttribute="trailing" secondItem="Yo6-Dl-Tfv" secondAttribute="trailing" id="ePe-mZ-eh5"/>
+                <constraint firstItem="Yo6-Dl-Tfv" firstAttribute="top" secondItem="CIe-7C-HaE" secondAttribute="bottom" constant="5" id="wz9-pl-aQ3"/>
+            </constraints>
+            <size key="customSize" width="200" height="272"/>
+            <connections>
+                <outlet property="filmImage" destination="CIe-7C-HaE" id="M8Y-Ic-Ixs"/>
+                <outlet property="nameFilmLabel" destination="Yo6-Dl-Tfv" id="NCm-1O-eHA"/>
+            </connections>
+            <point key="canvasLocation" x="66.666666666666671" y="28.794642857142854"/>
+        </collectionViewCell>
+    </objects>
+</document>

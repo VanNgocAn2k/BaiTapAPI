@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE7CC162E7B24878462CACA0 /* Pods_BTVNAPIURLSession.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940C79E19BE7B9AF426DB368 /* Pods_BTVNAPIURLSession.framework */; };
+		EF8252D9289AD7E0003A490B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8252D8289AD7E0003A490B /* AppDelegate.swift */; };
+		EF8252DB289AD7E0003A490B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8252DA289AD7E0003A490B /* SceneDelegate.swift */; };
+		EF8252DD289AD7E0003A490B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8252DC289AD7E0003A490B /* ViewController.swift */; };
+		EF8252E0289AD7E0003A490B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8252DE289AD7E0003A490B /* Main.storyboard */; };
+		EF8252E2289AD7E9003A490B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8252E1289AD7E9003A490B /* Assets.xcassets */; };
+		EF8252E5289AD7E9003A490B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8252E3289AD7E9003A490B /* LaunchScreen.storyboard */; };
+		EF8252EE289ADE5E003A490B /* FilmCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8252EC289ADE5E003A490B /* FilmCollectionViewCell.swift */; };
+		EF8252EF289ADE5E003A490B /* FilmCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF8252ED289ADE5E003A490B /* FilmCollectionViewCell.xib */; };
+		EF8252F1289AE058003A490B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8252F0289AE058003A490B /* ModelData.swift */; };
+		EF853709289B72D200ADC622 /* SetImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF853708289B72D200ADC622 /* SetImage.swift */; };
+		EF853727289CB8DC00ADC622 /* FilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF853725289CB8DC00ADC622 /* FilmViewController.swift */; };
+		EF853728289CB8DC00ADC622 /* FilmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF853726289CB8DC00ADC622 /* FilmViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		940C79E19BE7B9AF426DB368 /* Pods_BTVNAPIURLSession.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTVNAPIURLSession.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9787FE37D44C7B12D1FF9AA9 /* Pods-BTVNAPIURLSession.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTVNAPIURLSession.release.xcconfig"; path = "Target Support Files/Pods-BTVNAPIURLSession/Pods-BTVNAPIURLSession.release.xcconfig"; sourceTree = "<group>"; };
+		EF8252D5289AD7E0003A490B /* BTVNAPIURLSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTVNAPIURLSession.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8252D8289AD7E0003A490B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF8252DA289AD7E0003A490B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF8252DC289AD7E0003A490B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF8252DF289AD7E0003A490B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF8252E1289AD7E9003A490B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF8252E4289AD7E9003A490B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF8252E6289AD7E9003A490B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8252EC289ADE5E003A490B /* FilmCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF8252ED289ADE5E003A490B /* FilmCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilmCollectionViewCell.xib; sourceTree = "<group>"; };
+		EF8252F0289AE058003A490B /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		EF853708289B72D200ADC622 /* SetImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetImage.swift; sourceTree = "<group>"; };
+		EF853725289CB8DC00ADC622 /* FilmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmViewController.swift; sourceTree = "<group>"; };
+		EF853726289CB8DC00ADC622 /* FilmViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilmViewController.xib; sourceTree = "<group>"; };
+		F3E2D939C4582ED1DCF843FF /* Pods-BTVNAPIURLSession.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTVNAPIURLSession.debug.xcconfig"; path = "Target Support Files/Pods-BTVNAPIURLSession/Pods-BTVNAPIURLSession.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF8252D2289AD7E0003A490B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7CC162E7B24878462CACA0 /* Pods_BTVNAPIURLSession.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AC06DCE76FE7E59B22BDC4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				940C79E19BE7B9AF426DB368 /* Pods_BTVNAPIURLSession.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C533ABCCED57D4920952268C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3E2D939C4582ED1DCF843FF /* Pods-BTVNAPIURLSession.debug.xcconfig */,
+				9787FE37D44C7B12D1FF9AA9 /* Pods-BTVNAPIURLSession.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF8252CC289AD7DF003A490B = {
+			isa = PBXGroup;
+			children = (
+				EF8252D7289AD7E0003A490B /* BTVNAPIURLSession */,
+				EF8252D6289AD7E0003A490B /* Products */,
+				C533ABCCED57D4920952268C /* Pods */,
+				0AC06DCE76FE7E59B22BDC4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF8252D6289AD7E0003A490B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF8252D5289AD7E0003A490B /* BTVNAPIURLSession.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF8252D7289AD7E0003A490B /* BTVNAPIURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				EF8252D8289AD7E0003A490B /* AppDelegate.swift */,
+				EF8252DA289AD7E0003A490B /* SceneDelegate.swift */,
+				EF853723289CB7BB00ADC622 /* Home */,
+				EF8252E1289AD7E9003A490B /* Assets.xcassets */,
+				EF8252E3289AD7E9003A490B /* LaunchScreen.storyboard */,
+				EF8252E6289AD7E9003A490B /* Info.plist */,
+				EF853724289CB81100ADC622 /* Model */,
+			);
+			path = BTVNAPIURLSession;
+			sourceTree = "<group>";
+		};
+		EF853722289CB79A00ADC622 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EF8252EC289ADE5E003A490B /* FilmCollectionViewCell.swift */,
+				EF8252ED289ADE5E003A490B /* FilmCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EF853723289CB7BB00ADC622 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EF853722289CB79A00ADC622 /* Cells */,
+				EF8252DC289AD7E0003A490B /* ViewController.swift */,
+				EF8252DE289AD7E0003A490B /* Main.storyboard */,
+				EF853725289CB8DC00ADC622 /* FilmViewController.swift */,
+				EF853726289CB8DC00ADC622 /* FilmViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EF853724289CB81100ADC622 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF853708289B72D200ADC622 /* SetImage.swift */,
+				EF8252F0289AE058003A490B /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF8252D4289AD7E0003A490B /* BTVNAPIURLSession */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8252E9289AD7E9003A490B /* Build configuration list for PBXNativeTarget "BTVNAPIURLSession" */;
+			buildPhases = (
+				0177D3EBEA21BC4B5FCF15BA /* [CP] Check Pods Manifest.lock */,
+				EF8252D1289AD7E0003A490B /* Sources */,
+				EF8252D2289AD7E0003A490B /* Frameworks */,
+				EF8252D3289AD7E0003A490B /* Resources */,
+				2F9E2AF961C4B4EC212A9894 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTVNAPIURLSession;
+			productName = BTVNAPIURLSession;
+			productReference = EF8252D5289AD7E0003A490B /* BTVNAPIURLSession.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF8252CD289AD7DF003A490B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EF8252D4289AD7E0003A490B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = EF8252D0289AD7DF003A490B /* Build configuration list for PBXProject "BTVNAPIURLSession" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF8252CC289AD7DF003A490B;
+			productRefGroup = EF8252D6289AD7E0003A490B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF8252D4289AD7E0003A490B /* BTVNAPIURLSession */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF8252D3289AD7E0003A490B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF853728289CB8DC00ADC622 /* FilmViewController.xib in Resources */,
+				EF8252E5289AD7E9003A490B /* LaunchScreen.storyboard in Resources */,
+				EF8252E2289AD7E9003A490B /* Assets.xcassets in Resources */,
+				EF8252EF289ADE5E003A490B /* FilmCollectionViewCell.xib in Resources */,
+				EF8252E0289AD7E0003A490B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0177D3EBEA21BC4B5FCF15BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BTVNAPIURLSession-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F9E2AF961C4B4EC212A9894 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BTVNAPIURLSession/Pods-BTVNAPIURLSession-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BTVNAPIURLSession/Pods-BTVNAPIURLSession-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BTVNAPIURLSession/Pods-BTVNAPIURLSession-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF8252D1289AD7E0003A490B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8252DD289AD7E0003A490B /* ViewController.swift in Sources */,
+				EF8252D9289AD7E0003A490B /* AppDelegate.swift in Sources */,
+				EF8252F1289AE058003A490B /* ModelData.swift in Sources */,
+				EF853727289CB8DC00ADC622 /* FilmViewController.swift in Sources */,
+				EF8252EE289ADE5E003A490B /* FilmCollectionViewCell.swift in Sources */,
+				EF853709289B72D200ADC622 /* SetImage.swift in Sources */,
+				EF8252DB289AD7E0003A490B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF8252DE289AD7E0003A490B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8252DF289AD7E0003A490B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF8252E3289AD7E9003A490B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8252E4289AD7E9003A490B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF8252E7289AD7E9003A490B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF8252E8289AD7E9003A490B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF8252EA289AD7E9003A490B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3E2D939C4582ED1DCF843FF /* Pods-BTVNAPIURLSession.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BTVNAPIURLSession/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = An.BTVNAPIURLSession;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF8252EB289AD7E9003A490B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9787FE37D44C7B12D1FF9AA9 /* Pods-BTVNAPIURLSession.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BTVNAPIURLSession/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = An.BTVNAPIURLSession;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF8252D0289AD7DF003A490B /* Build configuration list for PBXProject "BTVNAPIURLSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8252E7289AD7E9003A490B /* Debug */,
+				EF8252E8289AD7E9003A490B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8252E9289AD7E9003A490B /* Build configuration list for PBXNativeTarget "BTVNAPIURLSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8252EA289AD7E9003A490B /* Debug */,
+				EF8252EB289AD7E9003A490B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF8252CD289AD7DF003A490B /* Project object */;
+}
